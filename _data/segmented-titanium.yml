@@ -36,15 +36,8 @@ spatial:
     links:
       url: []
       name: []
-  - pretty: fraction
-    native: fraction
-    units: undefined
-    description: []
-    links:
-      url: []
-      name: []
-  - pretty: ssa
-    native: ssa
+  - pretty: phase
+    native: phase
     units: undefined
     description: []
     links:
