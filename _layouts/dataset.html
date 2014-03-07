@@ -139,6 +139,11 @@ The original datasets were created by a group of users.
 <i>No description provided</i>
 {% endif %}
 </p>
+<p>
+    {% if dsets.location %}
+    <a href="dsets.location">Download Data</a>
+    {% endif %}
+</p>
 {% assign dicturl = {{site.data[{{page.dict}}] | map:'url' }} %}
 	{% assign dict = {{site.data[{{page.dict}}] | map:'spatial' | map:'group'}}   %}
 	{% assign ngroup = {{dict | size |minus:1 }} %}
