@@ -1,0 +1,45 @@
+name: segmented-titanium
+description: []
+aggregate:
+- group:
+  - name: DEFAULT
+    description: []
+    links:
+      url: []
+      name: []
+  - pretty: fraction
+    native: fraction
+    units: undefined
+    description: []
+    links:
+      url: []
+      name: []
+  - pretty: ssa
+    native: ssa
+    units: undefined
+    description: []
+    links:
+      url: []
+      name: []
+spatial:
+- group:
+  - name: DEFAULT
+    description: []
+    links:
+      url: []
+      name: []
+  - pretty: edge
+    native: edge
+    units: undefined
+    description: []
+    links:
+      url: []
+      name: []
+  - pretty: phase
+    native: phase
+    units: undefined
+    description: []
+    links:
+      url: []
+      name: []
+url: /2014/03/07/segmented-titanium.html

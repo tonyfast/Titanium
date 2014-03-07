@@ -1,0 +1,54 @@
+layout: dataset
+title: HT28_500X
+description: []
+aggregate:
+- name: HT28_500X_1
+  native: HT28_500X_1
+  description: []
+  output:
+  - {native: fraction, value: 0.7537200593665283}
+  - {native: ssa, value: 0.03551133926426684}
+- name: HT28_500X_2
+  native: HT28_500X_2
+  description: []
+  output:
+  - {native: fraction, value: 0.7493490700387769}
+  - {native: ssa, value: 0.038270016900586803}
+- name: HT28_500X_3
+  native: HT28_500X_3
+  description: []
+  output:
+  - {native: fraction, value: 0.7471436471237546}
+  - {native: ssa, value: 0.040074819412511585}
+- name: HT28_500X_4
+  native: HT28_500X_4
+  description: []
+  output:
+  - {native: fraction, value: 0.7648439555380163}
+  - {native: ssa, value: 0.03358446504352402}
+spatial:
+- name: HT28_500X_1
+  native: HT28_500X_1
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+- name: HT28_500X_2
+  native: HT28_500X_2
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+- name: HT28_500X_3
+  native: HT28_500X_3
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+- name: HT28_500X_4
+  native: HT28_500X_4
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+dict: segmented-titanium
