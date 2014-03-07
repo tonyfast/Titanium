@@ -1,7 +1,7 @@
 ---
 layout: dataset
 title: HT28_500X
-description: []
+description: HT28 is an index to a heat treatment process explore by the data generaters.  The microscope images were collected at 500X.  There is no history of the segmentation.  I have learned that large ellipsoidal regions of the image indicate a poor segmentation.  
 aggregate:
 - name: HT28_500X_1
   native: HT28_500X_1
@@ -23,7 +23,7 @@ aggregate:
   - {native: ssa, value: 0.040074819412511585}
 - name: HT28_500X_4
   native: HT28_500X_4
-  description: []
+  description: This segmentation looks much different than the other in its heat treatment class.
   output:
   - {native: fraction, value: 0.7648439555380163}
   - {native: ssa, value: 0.03358446504352402}
