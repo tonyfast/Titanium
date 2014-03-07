@@ -23,7 +23,7 @@ aggregate:
   - {native: ssa, value: 0.040074819412511585}
 - name: HT28_500X_4
   native: HT28_500X_4
-  description: This segmentation looks much different than the other in its heat treatment class.
+  description: []
   output:
   - {native: fraction, value: 0.7648439555380163}
   - {native: ssa, value: 0.03358446504352402}
@@ -60,7 +60,7 @@ spatial:
     name: []
 - name: HT28_500X_4
   native: HT28_500X_4
-  description: []
+  description: This segmentation looks much different than the other in its heat treatment class.
   output:
   - {native: phase}
   - {native: edge}
