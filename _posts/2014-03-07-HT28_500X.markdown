@@ -1,8 +1,26 @@
 ---
 layout: dataset
 title: HT28_500X
-description: HT28 is an index to a heat treatment process explore by the data generaters.  The microscope images were collected at 500X.  There is no history of the segmentation.  I have learned that large ellipsoidal regions of the image indicate a poor segmentation.  
+description: []
 aggregate:
+- name: HT27_500X_5
+  native: HT27_500X_5
+  description: []
+  output:
+  - {native: fraction, value: 0.6113500416080436}
+  - {native: ssa, value: 0.057989691642931496}
+- name: HT27_500X_6
+  native: HT27_500X_6
+  description: []
+  output:
+  - {native: fraction, value: 0.6200753984935314}
+  - {native: ssa, value: 0.05698541502236253}
+- name: HT27_500X_7
+  native: HT27_500X_7
+  description: []
+  output:
+  - {native: fraction, value: 0.6161126255390458}
+  - {native: ssa, value: 0.059362953684957045}
 - name: HT28_500X_1
   native: HT28_500X_1
   description: []
@@ -28,13 +46,43 @@ aggregate:
   - {native: fraction, value: 0.7648439555380163}
   - {native: ssa, value: 0.03358446504352402}
 spatial:
+- name: HT27_500X_5
+  native: HT27_500X_5
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_5.png
+  viz:
+  - url: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_5.png
+    name: []
+- name: HT27_500X_6
+  native: HT27_500X_6
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_6.png
+  viz:
+  - url: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_6.png
+    name: []
+- name: HT27_500X_7
+  native: HT27_500X_7
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_7.png
+  viz:
+  - url: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_7.png
+    name: []
 - name: HT28_500X_1
   native: HT28_500X_1
   description: []
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT28_500X_1.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT28_500X_1.png
     name: []
@@ -44,7 +92,7 @@ spatial:
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT28_500X_2.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT28_500X_2.png
     name: []
@@ -54,17 +102,17 @@ spatial:
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT28_500X_3.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT28_500X_3.png
     name: []
 - name: HT28_500X_4
   native: HT28_500X_4
-  description: This segmentation looks much different than the other in its heat treatment class.
+  description: []
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT28_500X_4.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT28_500X_4.png
     name: []
