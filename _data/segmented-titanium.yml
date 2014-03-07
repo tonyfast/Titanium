@@ -8,10 +8,10 @@ aggregate:
     links:
       url: []
       name: []
-  - pretty: fraction
+  - pretty: Volume Fraction
     native: fraction
-    units: undefined
-    description: []
+    units: phase/index
+    description: Value fraction of the white phase in the Segmented Titanium Image
     links:
       url: []
       name: []
