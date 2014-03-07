@@ -8,17 +8,17 @@ aggregate:
     links:
       url: []
       name: []
-  - pretty: Volume Fraction
+  - pretty: fraction
     native: fraction
-    units: phase/index
-    description: Value fraction of the white phase in the Segmented Titanium Image
+    units: undefined
+    description: []
     links:
       url: []
       name: []
-  - pretty: Specific Surface Area
+  - pretty: ssa
     native: ssa
     units: undefined
-    description: The specific surface area of the white phase in the Segmented Image
+    description: []
     links:
       url: []
       name: []
