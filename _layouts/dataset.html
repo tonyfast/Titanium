@@ -141,7 +141,7 @@ The original datasets were created by a group of users.
 </p>
 <p>
     {% if dsets.location %}
-    <a href="dsets.location">Download Data</a>
+    <code><a href="{{dsets.location}}">Download Data</a></code>
     {% endif %}
 </p>
 {% assign dicturl = {{site.data[{{page.dict}}] | map:'url' }} %}
