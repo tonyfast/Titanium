@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="{{site.baseurl}}/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+
+    </head>
+    <body>
+
+
+        <div class="site">
+
+<table style="position:relative;; height:60px;padding:0;padding:0;">
+<td><a href="{{site.baseurl}}"><img src="https://dl.dropboxusercontent.com/u/22455492/logo.png" height="60px;"></img></a></td>
+<td style="font-variant:small-caps;font-size:140%;vertical-align:middle;"><a href="{{site.baseurl}}/index.html">{{site.name}}</a>\&nbsp;&nbsp;</td>
+<td style="vertical-align:middle;font-size:140%;"><a href="{{site.baseurl}}{{page.url}}" style="color:black;">{{page.title}}</a></td>
+</table>
+<table style="position:relative; height:auto;background:#FFCC11;color:black;width:100%;">
+<td><center>datasets <font style="font-size:100%"><b>{{page.spatial|size}}</b></font></center></td>
+<td><center>workflows <font style="font-size:100%"><b>{{page.aggregate|size}}</b></font></center></td>
+<td><center>analytics <font style="font-size:100%"><b>##</b></font></center></td>
+
+</td>
+</table>
+
+{% if page.dict %}
+
+<table style="background-color:black;width:100%;color:gray;">
+	<td>DICTIONARIES&nbsp;&nbsp;&nbsp;
+	{% for names in page.dict %}
+		{% assign pp = site.data[{{names}}] %}
+    <a href="{{site.baseurl}}/{{pp.url}}">{{pp.name}}</a>&nbsp;&nbsp;
+	{% endfor %}
+	</td>
+</table>
+{% else %}
+<table style="background-color:black;width:100%;color:gray;">
+<td>&nbsp;</td>
+</table>
+{% endif %}
+
+{{content}}
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+               <a href="http://materials.gatech.edu"><img src="{{site.baseurl}}/assets/IMatLogo-blue-gold.jpg" width="200px;" target="_blank"></img></a>
+              </p>
+            </div>
+            <div class="contact" >
+              <p>
+                  <right><a href="http://mined.gatech.edu"><img src="http://mined.gatech.edu/images/mined-logo.png" width="175px;" target="_blank"></img></a></right>
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
