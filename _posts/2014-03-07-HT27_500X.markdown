@@ -1,7 +1,7 @@
 ---
 layout: dataset
 title: HT27_500X
-description: []
+description: HT27 is an index to a heat treatment process explore by the data generaters. The microscope images were collected at 500X. Grain Boundaries are cleary demarcated by long solid lines that transverse most of the image.  Near grain boundaries it appears that there is a dense collection of black pixels with smaller aspect ratios than inside the grain.
 aggregate:
 - name: HT27_500X_1
   native: HT27_500X_1
@@ -68,7 +68,7 @@ spatial:
     name: []
 - name: HT27_500X_3
   native: HT27_500X_3
-  description: []
+  description: The vertical line is a key example of grain boundary
   output:
   - {native: phase}
   - {native: edge}
