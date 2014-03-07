@@ -1,7 +1,7 @@
 ---
 layout: dataset
 title: HT28_500X
-description: []
+description: HT28 is an index to a heat treatment process explore by the data generaters. The microscope images were collected at 500X.  I have learned that large black regions that are not elongated indicate poor segmentation.
 aggregate:
 - name: HT28_500X_1
   native: HT28_500X_1
@@ -50,7 +50,7 @@ spatial:
     name: []
 - name: HT28_500X_3
   native: HT28_500X_3
-  description: []
+  description: This segmentation could be questionable.
   output:
   - {native: phase}
   - {native: edge}
