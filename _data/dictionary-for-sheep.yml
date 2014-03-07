@@ -1,0 +1,86 @@
+# The below syntax is sensitive to indents
+# Jekyll interprets the title for you
+name: dictionary-for-sheep
+url: /2014/02/18/Dictionary-Template.html
+# repo is for workflow tools
+repo:  https://github.com/tonyfast/SpatialStatisticsFFT
+tags: 
+- Equipment 
+- tags
+- Other shit
+description : A dictionary for ONE source of information
+execute:
+- sha: 06c6779e68ff64f98759c7d11a8b5f2a6543328b
+  time: 
+  command: ThisState(WasExecuted)
+  user:
+  - name: Someone
+    email: Some@one.com
+aggregate : 
+- group : 
+  - name : Group 1 
+    description : A collection of information related by Group 1
+    links: 
+    - url: link1.html
+      name: Link Title
+    - url: link2.html
+      name: Link Title
+  - native :  NATIVE-HDF-VAR-NAME-1 
+    pretty : A Colloquial Name 2
+    units : some/units
+    description : A description of the variable
+    links : 
+    - url: some/link.com
+      name: title
+  - native : NATIVE-HDF-VAR-NAME-2 
+    pretty : A Colloquial Name 2
+    units : some/units
+    description : A description of the variable
+    links : 
+    - url: some/link.com
+      name: title
+  - native : ONATIVE-HDF-VAR-NAME
+    pretty : A Colloquial Name 1
+    units : some/units  
+    description : A description of the variable
+    links : 
+    - url: link4.html
+      name: Link Title
+spatial : 
+- group : 
+  - name : Group Name 1
+    description : A collection of information related by Group 3
+    links: 
+    - url: link1.html
+      name: Link Title
+    - url: link2.html
+      name: Link Title
+  - native : NATIVE-HDF-VAR-NAME-4
+    pretty : HDF Variable 4
+    units : some/units  
+    description :  Some description
+    links : 
+    - url: 
+      name: 
+  - native : NATIVE-HDF-VAR-NAME-1
+    pretty : HDF Variable 1
+    units : some/units
+    description :  Some description
+    links : 
+    - url: 
+      name: 
+- group : 
+  - name : Group Name 2
+    description : A collection of information related by Group 4
+    links: 
+    - url: link1.html
+      name: Link Title
+    - url: link2.html
+      name: Link Title
+  - native : NATIVE-HDF-VAR-NAME-2
+    pretty : HDF Variable 2
+    units : some/units
+    description :  Some description
+    links : 
+    - url: link4.html
+      name: Link Title       

@@ -1,0 +1,299 @@
+---
+layout: default
+---
+<table style="width:100%;background-color:gray;">
+<td style="font-variant:small-caps;font-size:120%;"><left>Dataset Contents</left></td>
+</table>
+
+
+
+<div id=main>
+<i><div class="meta">This page was generated on {{ page.date | date_to_string }}. </div></i>
+</div>
+
+
+
+<! Describe the source of the information> 
+	
+The original datasets were created by a group of users.
+
+{% if {{page.input[0].location|size}}>0 %}
+<br>
+<code>[<a href="{{page | map:'input'|map:'location'}}">Access to Unstructured Data Provided</a>]
+</code>
+{% endif %}
+<br>
+<br>
+
+
+<! Information about the source of the data>
+
+
+{% assign pp = site.data[{{page.dict}}] %}
+{% assign aa = {{pp.aggregate[0].group | map:'pretty'}} %}
+
+{% if page.aggregate %}
+		<div id="Aggregate">
+			<table style="width:100%;background:#FFCC11;color:black;">
+			<td style="font-variant:small-caps;font-size:120%;"><left>High Value Data</left></td>
+			</table>
+		</div>
+<br>
+<table border=1 style="border-color:black;border-collapse:collapse;width:100%">
+<tr>
+<td></td>
+{% for colnm in page.aggregate[0].output %}
+
+<td><a href="{{site.baseurl}}/{{pp.url}}#Aggregate-{{colnm.native}}" target="_blank">{{colnm.native}}</a></td>
+{% endfor %}
+
+{% assign wfagg={{page |map:'aggregate'|map:'workflow'}} %}
+
+{% for wf in wfagg %}
+{% for colnm in wf[0].output %}
+
+
+{% if {{colnm|size}} >0 %}
+
+
+<td>{{colnm.native}}	</td>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+</tr>
+	{% for in dset in page.aggregate %}
+	{% if dset.output %}
+	<tr>
+	<td><a href="{{site.baseurl}}{{page.url}}#{{dset.native}}">{{dset.native}}</a></td>
+	{% for col in dset.output %}
+	<td><center>{{col.value}}</center></td>
+
+	{% endfor %}
+		{% endif %}
+		
+	{% assign wfagg={{dset|map:'workflow'|map:'output'|map:'value'}} %}
+	{% for colnm in wfagg %}
+	{% if {{colnm|size}} >0 %}
+	<td>{{colnm}}</td>
+	{% else %}
+	<td><code>empty</code></td>
+	{% endif %}
+	{% endfor %}
+
+	</tr>
+{% endfor %}
+
+</table>
+<br>
+
+{% if pp.aggregate and pp.spatial %}
+	<br><div>
+		<table style="background-color:gray;width:100%;"><td>&nbsp;</td></table>
+	</div>
+{% endif %}
+{% for imurl in {{page.aggregate[-1].viz}} %}
+	{% for vnms in site.data.viz %}	
+
+	{% if {{vnms.name}} == {{imurl.name}} %}
+	<h4>{{vnms.name}}</h4>
+
+	<img src="{{site.baseurl}}/assets/{{imurl.url}}" title="{{vnms.description}}"></img>	
+
+	{% endif %}
+
+	{% endfor %}
+
+{% endfor %}
+{% endif %}
+
+
+
+
+
+
+
+
+{% if pp.spatial %}
+
+
+
+<div id=main >
+{% for dsets in page.spatial%}<! each one is a dataset />
+
+		<div id="{{ dsets.native}}">
+			<table style="width:100%;background:#FFCC11;color:black;">
+			
+			<td style="font-size:120%;"><left><a href="{{site.baseurl}}/{{page.url}}#{{ dsets.native}}" style="color:#000;font-variant:small-caps;">
+{{dsets.name}}</a>
+{% if dsets.value %}
+<left><code style="font-size:100%;">[<a href="dsets.value">Access to Structured Data</a>]</code></left>
+{% endif %}
+</left></td>
+			</table>
+		</div>
+
+{% if dsets.description %}
+
+<i>{{dsets.description}}</i>
+{% else %}
+<i>No description provided</i>
+{% endif %}
+</p>
+{% assign dicturl = {{site.data[{{page.dict}}] | map:'url' }} %}
+	{% assign dict = {{site.data[{{page.dict}}] | map:'spatial' | map:'group'}}   %}
+	{% assign ngroup = {{dict | size |minus:1 }} %}
+				 {% assign dsetnative = {{dsets | map:'output' | map:'native' | join:' '}} %}
+{% assign maketable= false %}
+	{% for groupid in (0..ngroup) %}
+	<! Choose if i need to print a table />
+         {% for groupcontents in dict[groupid] %}
+         {% unless forloop.first %}
+			{% if groupcontents.native  %}
+				{% if dsetnative contains groupcontents.native %}
+					{% assign maketable = true %}
+				{% endif %}
+			 {% endif %}
+			{% endunless %}
+		{% endfor %}
+
+		<! Print the table/>
+
+     {% if maketable %}
+         {% for groupcontents in dict[groupid] %}
+			 {% if forloop.first %}
+					 <p><table style="width:92% ;background-color:rgb(220,220,220);font-variant:small-caps;left:4%;position:relative;">
+					 <td> {{groupcontents.name }} contains
+			 {% endif %}
+         
+			{% if groupcontents.native %}
+				{% if dsetnative contains groupcontents.native %}
+								<a href="{{site.baseurl}}{{dicturl}}#Spatial-{{groupcontents.native}}">
+					{{groupcontents.pretty | default:groupcontents.native}}
+					</a>
+
+								 {% unless forloop.first or forloop.last %}
+			 ,&nbsp;
+			 {% endunless %}
+
+				{% endif %}
+			 {% endif %}
+         {% endfor %}
+         </td></table></p>
+        {% endif %}
+					{% assign maketable = false %}
+	{% endfor %}
+
+
+	<! viz />
+	
+	{% for imurl in dsets.viz %}
+
+	<center><p align="left" style="border-style:dotted;border-color:rgb(220,220,220);width:90%;">{{imurl.name}}<br>
+	<img style="width:90%;" src="{{imurl.url}}" alt="{{imurl.description}}" />
+	</p></center>
+	{% endfor %}
+	
+{% if dsets.workflow %}
+		<p><table style="width:92% ;background-color:#FFCC11;font-variant:small-caps;left:4%;position:relative;">
+		<tr><td> Workflows </td></tr>
+		</table>
+
+		{% for workflows in dsets.workflow %}
+
+		{% assign dicturl = {{site.data[{{page.dict}}] | map:'url' }} %}
+		{% assign dict = {{site.data[{{workflows.dict}}] | map:'spatial' | map:'group'}}   %}
+	{% assign ngroup = {{dict | size |minus:1 }} %}
+				 {% assign dsetnative = {{workflows | map:'output' | map:'native' | join:' '}} %}
+
+				 	{% for groupid in (0..ngroup) %}
+	<! Choose if i need to print a table />
+         {% for groupcontents in dict[groupid] %}
+         {% unless forloop.first %}
+			{% if groupcontents.native  %}
+				{% if dsetnative contains groupcontents.native %}
+					{% assign maketable = true %}
+				{% endif %}
+			 {% endif %}
+			{% endunless %}
+		{% endfor %}
+
+		<! Print the table/>
+     {% if maketable %}
+         {% for groupcontents in dict[groupid] %}
+			 {% if forloop.first %}
+					 <table style="width:88% ;background-color:rgb(220,220,220);font-variant:small-caps;left:6%;position:relative;">
+					 <td> <a href="{{site.baseurl}}/{{dicturl}}#Spatial-{{groupcontents.name | replace:' ','-' }}">
+					 {{groupcontents.name}}</a> contains
+			 {% endif %}
+         
+			{% if groupcontents.native %}
+				{% if dsetnative contains groupcontents.native %}
+								<a href="{{site.baseurl}}{{dicturl}}#Spatial-{{groupcontents.native}}">
+					{{groupcontents.pretty | default:groupcontents.native}}
+					</a>
+
+								 {% unless forloop.first or forloop.last %}
+			 ,&nbsp;
+			 {% endunless %}
+
+				{% endif %}
+			 {% endif %}
+         {% endfor %}
+         </td></table>
+        {% endif %}
+					{% assign maketable = false %}
+	{% endfor %}
+				 
+{% assign maketable= false %}
+
+<p style="background-color:rgb(50,50,50); color: white;">
+<code >>> Inputs-Variables:<br>
+        {% for inp in workflows.input %}
+        <a href="{{site.baseurl}}/{{inp.value}}#Spatial-{{inp.native}}">{{inp.native}}</a>
+        
+        {% if inp.location %}
+        [<a href="{{inp.location}}">link</a>]
+        {% endif %}
+        {% endfor %}
+        {% if dictrepo %}
+        {% assign dictrepo = {{site.data[{{page.dict}}] | map:'repo' }} %}
+         <br>>> <a href="{{dictrepo}}/commit/{{workflows|map:'execute'|map:'sha'}}">
+         {{workflows | map:'execute' | map:'command' }} </a>
+         {% endif %}
+         {% if workflows.output %}
+         <br>>>
+         {% for outputs in workflows.output %}
+             [<a href="{{outputs.value}}">{{outputs.native}}</a>]
+         {% endfor %}
+         {% endif %}
+         </a></code><p>
+         
+        </table>
+        <div>
+<center>		<table style="left:6%;background-color:gray;width:88%;"><td></td></table></center>
+	</div>
+{{workflows.description}}
+
+	{% for imurl in dsets.viz %}
+
+	<center><p align="left" style="border-style:dotted;border-color:rgb(220,220,220);width:90%;">{{imurl.name}}<br>
+	<img style="width:90%;" src="{{imurl.url}}" alt="{{imurl.description}}" />
+	</p></center>
+	{% endfor %}
+{% endfor %} 
+{% endif %}
+
+	<! header, then variables, then images, then workflows, then variables then images >
+	
+{% endfor %} {% comment %} Ending the dataset part of the loop {% endcomment %}
+
+{% endif %}
+
+
+        <table style="background-color:black;width:100%;color:white;"><td>Tags</td></table>
+        <center>{{page.tags| array_to_sentence_string}}</center>        
+        
+        
+        
+        

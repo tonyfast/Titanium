@@ -1,0 +1,77 @@
+---
+layout: default
+title: Everything starts from something
+---
+
+
+<table style="width:100%;background-color:gray;">
+<td style="font-variant:small-caps;font-size:120%;"><left>Recent Research Activity</left></td>
+</table>
+<br>
+
+<div id="home">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; 
+      <code style="background-color:rgb(220,220,220);">{{post.layout}}</code> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<br>
+
+<div style="width:100%;background-color:#FFCC11;">
+<table style="width:100%;background-color:gray;">
+<td style="vertical-align:middle;"><h2><left>About</left></h2></td>
+</table>
+
+
+<center><img src="https://dl.dropboxusercontent.com/u/22455492/logo.png" height="60px;" style="display:float-left;align-vertical:bottom;"></img></center>
+<table style="width:86%;background-color:gray;position:relative;left:7%;align:center;">
+<td style="vertical-align:middle;"></td>
+</table>
+
+<p> Matin (French for "morning") is a ecosystem to develop scalable and sustainable innovative technologies for the Materials Genome Initiative.
+Currently, materials science information exists in a lawless wild west; it is unstructured, it is searching for comrades, it is fighting for survival.
+</p>
+
+A Dataset
+
+<h2>Workflows</h2>
+<p >
+Workflows create and transform information.  Workflows can range from fully manual to fully automated.
+<ol style="position:relative;left:5%; width:90%;">
+<li>
+<b>Sensor Workflows</b> - Sensor workflows create raw data.  All the provenance of a information originates from a sensor workflows.
+A sensor workflow performs a task to generate raw data
+</li>
+<li>
+<b>Structuring Workflows</b> - A cornerstone of Matin program is our dedicated focus to the user.  
+Structuring workflows identify unstructured sensor data and export structured metadata and data.
+</li>
+<li>
+<b>Filtering Workflows</b> - Filtering workflows modify information contained within a SINGLE dataset.</li>
+<li>
+<b>Combo Workflows</b> - Combo workflows ingest existing information that can be compared in a deterministic frame.
+Combo workflows merge heterogeneous streams of information MULTIPLE datasets in a combined dataset.  A combo workflow is identified when the metadata for either data source is modified.
+An example, two sources including (1) an image of a volume and (2) point data sampled within the volume are combined using a Combo workflow; alone the position in (2) are relative while after the combo workflow the position are now absolute to a frame.
+</li>
+<li>
+<b>Analytics Workflows</b> - Analytics workflows ingest existing information from MULTIPLE datasets that can be compared in a stochastic frame.
+These workflows will often ingest a lot of data to create compact knowledge of the relationship between the inputs.
+</li>
+<li>
+<b>Content Workflows</b> - Content workflows strictly operate on metadata.  
+These workflows will dynamically enhance the project metadata by improving metadata description and knowledge dissemination using both visualization and text.
+All Content Workflow changes are recorded by a versioning system requiring that no modification is ever permanent.
+</li>
+</ol>
+</p>
+
+<h2>Dictionaries</h2>
+
+<h2>Data, Metadata, and High Value Data</h2>
+
+
+<h2>A Data API: Data + Workflows</h2>
+</div>
