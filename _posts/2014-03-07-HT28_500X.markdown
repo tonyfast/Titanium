@@ -36,7 +36,7 @@ spatial:
   - {native: edge}
   location: http://google.com
   viz:
-  - url: https://www.dropbox.com/sh/ojehgtsbl58ijid/KaaRbvzRl2/HT28_500X_1.png
+  - url: https://www.dropbox.com/sh/ojehgtsbl58ijid/CsQBf7yEKj/HT28_500X_1.png
     name: []
 - name: HT28_500X_2
   native: HT28_500X_2
@@ -46,7 +46,7 @@ spatial:
   - {native: edge}
   location: http://google.com
   viz:
-  - url: https://www.dropbox.com/sh/ojehgtsbl58ijid/KaaRbvzRl2/HT28_500X_2.png
+  - url: https://www.dropbox.com/sh/ojehgtsbl58ijid/CsQBf7yEKj/HT28_500X_2.png
     name: []
 - name: HT28_500X_3
   native: HT28_500X_3
@@ -56,7 +56,7 @@ spatial:
   - {native: edge}
   location: http://google.com
   viz:
-  - url: https://www.dropbox.com/sh/ojehgtsbl58ijid/KaaRbvzRl2/HT28_500X_3.png
+  - url: https://www.dropbox.com/sh/ojehgtsbl58ijid/CsQBf7yEKj/HT28_500X_3.png
     name: []
 - name: HT28_500X_4
   native: HT28_500X_4
@@ -66,7 +66,7 @@ spatial:
   - {native: edge}
   location: http://google.com
   viz:
-  - url: https://www.dropbox.com/sh/ojehgtsbl58ijid/KaaRbvzRl2/HT28_500X_4.png
+  - url: https://www.dropbox.com/sh/ojehgtsbl58ijid/CsQBf7yEKj/HT28_500X_4.png
     name: []
 dict: segmented-titanium
 ---
