@@ -33,24 +33,48 @@ spatial:
   description: []
   output:
   - {native: phase}
+  - {native: link}
+  - {native: image}
   - {native: edge}
+  location: http://google.com
+  viz:
+  - url: https://dl.dropboxusercontent.com/u/22455492/logo.png
+    name: []
 - name: HT28_500X_2
   native: HT28_500X_2
   description: []
   output:
   - {native: phase}
+  - {native: link}
+  - {native: image}
   - {native: edge}
+  location: http://google.com
+  viz:
+  - url: https://dl.dropboxusercontent.com/u/22455492/logo.png
+    name: []
 - name: HT28_500X_3
   native: HT28_500X_3
   description: []
   output:
   - {native: phase}
+  - {native: link}
+  - {native: image}
   - {native: edge}
+  location: http://google.com
+  viz:
+  - url: https://dl.dropboxusercontent.com/u/22455492/logo.png
+    name: []
 - name: HT28_500X_4
   native: HT28_500X_4
   description: []
   output:
   - {native: phase}
+  - {native: link}
+  - {native: image}
   - {native: edge}
+  location: http://google.com
+  viz:
+  - url: https://dl.dropboxusercontent.com/u/22455492/logo.png
+    name: []
 dict: segmented-titanium
 ---
