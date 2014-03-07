@@ -1,7 +1,7 @@
 ---
 layout: dataset
 title: HT27_500X
-description: HT27 is an index to a heat treatment process explore by the data generaters. The microscope images were collected at 500X. Grain Boundaries are cleary demarcated by long solid lines that transverse most of the image.  Near grain boundaries it appears that there is a dense collection of black pixels with smaller aspect ratios than inside the grain.
+description: []
 aggregate:
 - name: HT27_500X_1
   native: HT27_500X_1
@@ -52,7 +52,7 @@ spatial:
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_1.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_1.png
     name: []
@@ -62,17 +62,17 @@ spatial:
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_2.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_2.png
     name: []
 - name: HT27_500X_3
   native: HT27_500X_3
-  description: The vertical line is a key example of grain boundary
+  description: []
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_3.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_3.png
     name: []
@@ -82,7 +82,7 @@ spatial:
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_4.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_4.png
     name: []
@@ -92,7 +92,7 @@ spatial:
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_5.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_5.png
     name: []
@@ -102,7 +102,7 @@ spatial:
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_6.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_6.png
     name: []
@@ -112,7 +112,7 @@ spatial:
   output:
   - {native: phase}
   - {native: edge}
-  location: http://google.com
+  location: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_7.png
   viz:
   - url: https://dl.dropboxusercontent.com/u/22455492/HT27_500X_7.png
     name: []
