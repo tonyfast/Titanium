@@ -1,5 +1,6 @@
 name: segmented-titanium
 description: []
+layout: dictionary
 aggregate:
 - group:
   - name: DEFAULT
@@ -35,8 +36,15 @@ spatial:
     links:
       url: []
       name: []
-  - pretty: phase
-    native: phase
+  - pretty: fraction
+    native: fraction
+    units: undefined
+    description: []
+    links:
+      url: []
+      name: []
+  - pretty: ssa
+    native: ssa
     units: undefined
     description: []
     links:
