@@ -1,0 +1,152 @@
+---
+layout: dataset
+title: HT31_3Kx
+description: []
+aggregate:
+- name: HT31_3Kx_1_Thresholded
+  native: HT31_3Kx_1_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.8009881601161245}
+  - {native: ssa, value: 0.016846186312589474}
+- name: HT31_3Kx_2_Thresholded
+  native: HT31_3Kx_2_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.794353044847116}
+  - {native: ssa, value: 0.018918807641633728}
+- name: HT31_3Kx_3_Thresholded
+  native: HT31_3Kx_3_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.8015565558179194}
+  - {native: ssa, value: 0.018028962692994314}
+- name: HT31_3Kx_4_Thresholded
+  native: HT31_3Kx_4_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.7951598316593376}
+  - {native: ssa, value: 0.018175740322479452}
+- name: HT31_3Kx_5_Thresholded
+  native: HT31_3Kx_5_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.797209193145458}
+  - {native: ssa, value: 0.017235900079279526}
+- name: HT31_3Kx_6_Thresholded
+  native: HT31_3Kx_6_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.8010517013728476}
+  - {native: ssa, value: 0.01738838127178048}
+- name: HT31_3Kx_7_Thresholded
+  native: HT31_3Kx_7_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.7995045207866354}
+  - {native: ssa, value: 0.016457274609448524}
+- name: HT31_3Kx_8_Thresholded
+  native: HT31_3Kx_8_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.7867786240439403}
+  - {native: ssa, value: 0.01951491909495862}
+- name: HT31_3Kx_9_Thresholded
+  native: HT31_3Kx_9_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.762935948274387}
+  - {native: ssa, value: 0.021151930798669928}
+spatial:
+- name: HT31_3Kx_1_Thresholded
+  native: HT31_3Kx_1_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7361/12972902104_3882e654be_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7361/12972902104_1e8bc77eb3_z.jpg
+    name: []
+- name: HT31_3Kx_2_Thresholded
+  native: HT31_3Kx_2_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7297/12972477335_67de42ecf6_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7297/12972477335_76514b7521_z.jpg
+    name: []
+- name: HT31_3Kx_3_Thresholded
+  native: HT31_3Kx_3_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7427/12972477945_054fdabe22_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7427/12972477945_7cbbcef180_z.jpg
+    name: []
+- name: HT31_3Kx_4_Thresholded
+  native: HT31_3Kx_4_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7409/12972903844_bd9285df6d_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7409/12972903844_2efc388308_z.jpg
+    name: []
+- name: HT31_3Kx_5_Thresholded
+  native: HT31_3Kx_5_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7304/12972904014_a1f54a0322_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7304/12972904014_c1402e203c_z.jpg
+    name: []
+- name: HT31_3Kx_6_Thresholded
+  native: HT31_3Kx_6_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2663/12972904514_2ebcdb0c50_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2663/12972904514_e1cc0351a7_z.jpg
+    name: []
+- name: HT31_3Kx_7_Thresholded
+  native: HT31_3Kx_7_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2578/12972624793_48a1f7e24d_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2578/12972624793_e588a8d6de_z.jpg
+    name: []
+- name: HT31_3Kx_8_Thresholded
+  native: HT31_3Kx_8_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2546/12972625503_7f34c1e24c_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2546/12972625503_b6f1c3203e_z.jpg
+    name: []
+- name: HT31_3Kx_9_Thresholded
+  native: HT31_3Kx_9_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7331/12972626003_6dd70eae7a_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7331/12972626003_28b533eaa6_z.jpg
+    name: []
+dict: segmented-titanium
+---
