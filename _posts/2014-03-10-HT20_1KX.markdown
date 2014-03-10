@@ -1,0 +1,72 @@
+---
+layout: dataset
+title: HT20_1KX
+description: []
+aggregate:
+- name: HT20_1KX_1
+  native: HT20_1KX_1
+  description: []
+  output:
+  - {native: fraction, value: 0.5741716996671357}
+  - {native: ssa, value: 0.06259070482024182}
+- name: HT20_1KX_4
+  native: HT20_1KX_4
+  description: []
+  output:
+  - {native: fraction, value: 0.5795988863056633}
+  - {native: ssa, value: 0.05647416154787642}
+- name: HT20_1KX_7
+  native: HT20_1KX_7
+  description: []
+  output:
+  - {native: fraction, value: 0.5543962615673221}
+  - {native: ssa, value: 0.05770533426558228}
+- name: HT20_1KX_9
+  native: HT20_1KX_9
+  description: []
+  output:
+  - {native: fraction, value: 0.5645020296432289}
+  - {native: ssa, value: 0.05719479570593551}
+spatial:
+- name: HT20_1KX_1
+  native: HT20_1KX_1
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7361/12972820564_bbba9bdf54_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7361/12972820564_f6f23c76ed_z.jpg
+    name: []
+- name: HT20_1KX_4
+  native: HT20_1KX_4
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2144/12972540723_5e1416b970_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2144/12972540723_ebd2469a4d_z.jpg
+    name: []
+- name: HT20_1KX_7
+  native: HT20_1KX_7
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7297/12972820814_c8b5ca5d64_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7297/12972820814_3ede3c4a38_z.jpg
+    name: []
+- name: HT20_1KX_9
+  native: HT20_1KX_9
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2403/12972541293_1774d19bea_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2403/12972541293_a83143862d_z.jpg
+    name: []
+dict: segmented-titanium
+---
