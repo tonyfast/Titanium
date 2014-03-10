@@ -1,0 +1,152 @@
+---
+layout: dataset
+title: HT35_6K
+description: []
+aggregate:
+- name: HT35_6K1_Thresholded
+  native: HT35_6K1_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.5416871638462547}
+  - {native: ssa, value: 0.02347862803643436}
+- name: HT35_6K2_Thresholded
+  native: HT35_6K2_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.5729326188194765}
+  - {native: ssa, value: 0.021683075104517793}
+- name: HT35_6K3_Thresholded
+  native: HT35_6K3_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.5134780541154059}
+  - {native: ssa, value: 0.02003866659252035}
+- name: HT35_6K4_Thresholded
+  native: HT35_6K4_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.5562409634173469}
+  - {native: ssa, value: 0.0226127558760958}
+- name: HT35_6K5_Thresholded
+  native: HT35_6K5_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.575545385389753}
+  - {native: ssa, value: 0.023695363431035368}
+- name: HT35_6K6_Thresholded
+  native: HT35_6K6_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.5724925532855375}
+  - {native: ssa, value: 0.02214764813579043}
+- name: HT35_6K7_Thresholded
+  native: HT35_6K7_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.6137941919191919}
+  - {native: ssa, value: 0.02237258240222667}
+- name: HT35_6K8_Thresholded
+  native: HT35_6K8_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.6214671774207348}
+  - {native: ssa, value: 0.02260526994963754}
+- name: HT35_6K9_Thresholded
+  native: HT35_6K9_Thresholded
+  description: []
+  output:
+  - {native: fraction, value: 0.501087330818062}
+  - {native: ssa, value: 0.02196736207358737}
+spatial:
+- name: HT35_6K1_Thresholded
+  native: HT35_6K1_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7447/12972633913_95d55fdf55_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7447/12972633913_3e702e4f84_z.jpg
+    name: []
+- name: HT35_6K2_Thresholded
+  native: HT35_6K2_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2498/12972914454_18a77b9453_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2498/12972914454_bca4087fe0_z.jpg
+    name: []
+- name: HT35_6K3_Thresholded
+  native: HT35_6K3_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2226/12972634363_23d55b3755_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2226/12972634363_7c1cd8a0e0_z.jpg
+    name: []
+- name: HT35_6K4_Thresholded
+  native: HT35_6K4_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2214/12972635003_0e422a9185_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2214/12972635003_27e223f3ea_z.jpg
+    name: []
+- name: HT35_6K5_Thresholded
+  native: HT35_6K5_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7416/12972635503_6823b09abb_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7416/12972635503_74ac74276e_z.jpg
+    name: []
+- name: HT35_6K6_Thresholded
+  native: HT35_6K6_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7439/12972490305_cd998299d6_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7439/12972490305_2326d4da71_z.jpg
+    name: []
+- name: HT35_6K7_Thresholded
+  native: HT35_6K7_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2292/12972491065_2b13c2c898_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2292/12972491065_5a6a183879_z.jpg
+    name: []
+- name: HT35_6K8_Thresholded
+  native: HT35_6K8_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7442/12972636993_1e26fded1a_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7442/12972636993_5eeec1804d_z.jpg
+    name: []
+- name: HT35_6K9_Thresholded
+  native: HT35_6K9_Thresholded
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2202/12972917784_b7b1b4ff19_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2202/12972917784_8244df9d17_z.jpg
+    name: []
+dict: segmented-titanium
+---
