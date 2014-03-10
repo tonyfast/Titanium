@@ -1,0 +1,152 @@
+---
+layout: dataset
+title: HT27_500
+description: []
+aggregate:
+- name: HT27_500X_9
+  native: HT27_500X_9
+  description: []
+  output:
+  - {native: fraction, value: 0.6178366426741246}
+  - {native: ssa, value: 0.056732513897944474}
+- name: HT27_500x_1
+  native: HT27_500x_1
+  description: []
+  output:
+  - {native: fraction, value: 0.6234604308934719}
+  - {native: ssa, value: 0.059723181399631675}
+- name: HT27_500x_2
+  native: HT27_500x_2
+  description: []
+  output:
+  - {native: fraction, value: 0.628513091520538}
+  - {native: ssa, value: 0.05962434442309232}
+- name: HT27_500x_3
+  native: HT27_500x_3
+  description: []
+  output:
+  - {native: fraction, value: 0.6337991718426501}
+  - {native: ssa, value: 0.06429068294384772}
+- name: HT27_500x_4
+  native: HT27_500x_4
+  description: []
+  output:
+  - {native: fraction, value: 0.6230098558159752}
+  - {native: ssa, value: 0.06142476808162611}
+- name: HT27_500x_5
+  native: HT27_500x_5
+  description: []
+  output:
+  - {native: fraction, value: 0.6113500416080436}
+  - {native: ssa, value: 0.057989691642931496}
+- name: HT27_500x_6
+  native: HT27_500x_6
+  description: []
+  output:
+  - {native: fraction, value: 0.6200753984935314}
+  - {native: ssa, value: 0.05698541502236253}
+- name: HT27_500x_7
+  native: HT27_500x_7
+  description: []
+  output:
+  - {native: fraction, value: 0.6161126255390458}
+  - {native: ssa, value: 0.059362953684957045}
+- name: HT27_500x_8
+  native: HT27_500x_8
+  description: []
+  output:
+  - {native: fraction, value: 0.6096033259268155}
+  - {native: ssa, value: 0.05351986533864086}
+spatial:
+- name: HT27_500X_9
+  native: HT27_500X_9
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2851/12972828354_f223d162ee_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2851/12972828354_b673f11861_z.jpg
+    name: []
+- name: HT27_500x_1
+  native: HT27_500x_1
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2626/12972402995_faece18c19_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2626/12972402995_716cd0c2a3_z.jpg
+    name: []
+- name: HT27_500x_2
+  native: HT27_500x_2
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7330/12972549083_56aeccf983_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7330/12972549083_37e28647b2_z.jpg
+    name: []
+- name: HT27_500x_3
+  native: HT27_500x_3
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7306/12972829004_2847f71fa6_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7306/12972829004_95609afcca_z.jpg
+    name: []
+- name: HT27_500x_4
+  native: HT27_500x_4
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7371/12972404645_b29f9956e3_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7371/12972404645_03a7e5e0ea_z.jpg
+    name: []
+- name: HT27_500x_5
+  native: HT27_500x_5
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7450/12972405265_236b1ea7ea_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7450/12972405265_c65ac314a6_z.jpg
+    name: []
+- name: HT27_500x_6
+  native: HT27_500x_6
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2586/12972405425_9d0fb27def_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2586/12972405425_5e25d087f5_z.jpg
+    name: []
+- name: HT27_500x_7
+  native: HT27_500x_7
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7336/12972863744_5fbd9d4948_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7336/12972863744_416a2ef567_z.jpg
+    name: []
+- name: HT27_500x_8
+  native: HT27_500x_8
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2836/13071131544_322a55fa55_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2836/13071131544_b3d3368ffc_z.jpg
+    name: []
+dict: segmented-titanium
+---
