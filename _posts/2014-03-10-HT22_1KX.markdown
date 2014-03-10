@@ -1,0 +1,72 @@
+---
+layout: dataset
+title: HT22_1KX
+description: []
+aggregate:
+- name: HT22_1KX_1
+  native: HT22_1KX_1
+  description: []
+  output:
+  - {native: fraction, value: 0.758173353265159}
+  - {native: ssa, value: 0.032223803375541905}
+- name: HT22_1KX_3
+  native: HT22_1KX_3
+  description: []
+  output:
+  - {native: fraction, value: 0.7518460888438969}
+  - {native: ssa, value: 0.032055351566521395}
+- name: HT22_1KX_6
+  native: HT22_1KX_6
+  description: []
+  output:
+  - {native: fraction, value: 0.7371913176452422}
+  - {native: ssa, value: 0.0343100142411036}
+- name: HT22_1KX_8
+  native: HT22_1KX_8
+  description: []
+  output:
+  - {native: fraction, value: 0.7634538036329113}
+  - {native: ssa, value: 0.03345435054276335}
+spatial:
+- name: HT22_1KX_1
+  native: HT22_1KX_1
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2085/12972824394_576aec0c5b_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2085/12972824394_3b448461c7_z.jpg
+    name: []
+- name: HT22_1KX_3
+  native: HT22_1KX_3
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7387/12972399815_dfcf4c2163_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7387/12972399815_2786d4b36a_z.jpg
+    name: []
+- name: HT22_1KX_6
+  native: HT22_1KX_6
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7446/12972545613_ac6339c68b_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7446/12972545613_9158771f79_z.jpg
+    name: []
+- name: HT22_1KX_8
+  native: HT22_1KX_8
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2178/12972545703_5432a19cff_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2178/12972545703_9d6fe5f482_z.jpg
+    name: []
+dict: segmented-titanium
+---
