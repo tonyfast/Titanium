@@ -1,0 +1,104 @@
+---
+layout: dataset
+title: HT28_500
+description: []
+aggregate:
+- name: HT28_500X_1
+  native: HT28_500X_1
+  description: []
+  output:
+  - {native: fraction, value: 0.7537200593665283}
+  - {native: ssa, value: 0.03551133926426684}
+- name: HT28_500X_2
+  native: HT28_500X_2
+  description: []
+  output:
+  - {native: fraction, value: 0.7493490700387769}
+  - {native: ssa, value: 0.038270016900586803}
+- name: HT28_500X_3
+  native: HT28_500X_3
+  description: []
+  output:
+  - {native: fraction, value: 0.7471436471237546}
+  - {native: ssa, value: 0.040074819412511585}
+- name: HT28_500X_4
+  native: HT28_500X_4
+  description: []
+  output:
+  - {native: fraction, value: 0.7648439555380163}
+  - {native: ssa, value: 0.03358446504352402}
+- name: HT28_500X_6
+  native: HT28_500X_6
+  description: []
+  output:
+  - {native: fraction, value: 0.7419092193987852}
+  - {native: ssa, value: 0.033705464380083046}
+- name: HT28_500X_7
+  native: HT28_500X_7
+  description: []
+  output:
+  - {native: fraction, value: 0.7439899790386969}
+  - {native: ssa, value: 0.037078253863399795}
+spatial:
+- name: HT28_500X_1
+  native: HT28_500X_1
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7451/12972438745_ab4d7976a3_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7451/12972438745_efd2e975b4_z.jpg
+    name: []
+- name: HT28_500X_2
+  native: HT28_500X_2
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7388/12972439215_b332e9a314_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7388/12972439215_8bacda1a43_z.jpg
+    name: []
+- name: HT28_500X_3
+  native: HT28_500X_3
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7425/12972439755_c02c6273c4_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7425/12972439755_47022f5194_z.jpg
+    name: []
+- name: HT28_500X_4
+  native: HT28_500X_4
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7367/12972440325_5fe77c80b2_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7367/12972440325_24b7c5e7e8_z.jpg
+    name: []
+- name: HT28_500X_6
+  native: HT28_500X_6
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7389/12972866154_0495149d3e_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7389/12972866154_89e8180d8c_z.jpg
+    name: []
+- name: HT28_500X_7
+  native: HT28_500X_7
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7347/12972866514_c738cb0306_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7347/12972866514_3fa3e06eec_z.jpg
+    name: []
+dict: segmented-titanium
+---
