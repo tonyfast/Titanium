@@ -1,0 +1,152 @@
+---
+layout: dataset
+title: 15_2KX
+description: []
+aggregate:
+- name: 15_2KX_1
+  native: 15_2KX_1
+  description: []
+  output:
+  - {native: fraction, value: 0.6318512969985015}
+  - {native: ssa, value: 0.033211994412225616}
+- name: 15_2KX_2
+  native: 15_2KX_2
+  description: []
+  output:
+  - {native: fraction, value: 0.6140539388947989}
+  - {native: ssa, value: 0.03445424830994132}
+- name: 15_2KX_3
+  native: 15_2KX_3
+  description: []
+  output:
+  - {native: fraction, value: 0.6098068979273189}
+  - {native: ssa, value: 0.03539605924642256}
+- name: 15_2KX_4
+  native: 15_2KX_4
+  description: []
+  output:
+  - {native: fraction, value: 0.6087737566201115}
+  - {native: ssa, value: 0.03433610863273967}
+- name: 15_2KX_5
+  native: 15_2KX_5
+  description: []
+  output:
+  - {native: fraction, value: 0.6100557776557657}
+  - {native: ssa, value: 0.03501751183898974}
+- name: 15_2KX_6
+  native: 15_2KX_6
+  description: []
+  output:
+  - {native: fraction, value: 0.6020641914885099}
+  - {native: ssa, value: 0.03564967528567997}
+- name: 15_2KX_7
+  native: 15_2KX_7
+  description: []
+  output:
+  - {native: fraction, value: 0.6095363026606271}
+  - {native: ssa, value: 0.032178674376308294}
+- name: 15_2KX_8
+  native: 15_2KX_8
+  description: []
+  output:
+  - {native: fraction, value: 0.6249790887409492}
+  - {native: ssa, value: 0.03637701177035792}
+- name: 15_2KX_9
+  native: 15_2KX_9
+  description: []
+  output:
+  - {native: fraction, value: 0.6255009765736705}
+  - {native: ssa, value: 0.03406390480765931}
+spatial:
+- name: 15_2KX_1
+  native: 15_2KX_1
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2397/12972389405_56a432791e_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2397/12972389405_223298503d_z.jpg
+    name: []
+- name: 15_2KX_2
+  native: 15_2KX_2
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7322/12972533223_97fef187d3_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7322/12972533223_985e6dd05e_z.jpg
+    name: []
+- name: 15_2KX_3
+  native: 15_2KX_3
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7343/12972533763_319085086e_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7343/12972533763_1f0430f6c8_z.jpg
+    name: []
+- name: 15_2KX_4
+  native: 15_2KX_4
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7390/12972813884_7191e55f35_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7390/12972813884_7d3dfa1ae2_z.jpg
+    name: []
+- name: 15_2KX_5
+  native: 15_2KX_5
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7448/12972388715_66baa86f87_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7448/12972388715_92d5f51333_z.jpg
+    name: []
+- name: 15_2KX_6
+  native: 15_2KX_6
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2689/12972815434_c6389ff785_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2689/12972815434_734b24ef1d_z.jpg
+    name: []
+- name: 15_2KX_7
+  native: 15_2KX_7
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7374/12972815804_16680e3d46_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7374/12972815804_dbbfec8f9b_z.jpg
+    name: []
+- name: 15_2KX_8
+  native: 15_2KX_8
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm3.staticflickr.com/2816/12972535883_5c48821385_o.png
+  viz:
+  - url: http://farm3.staticflickr.com/2816/12972535883_8c91994d4f_z.jpg
+    name: []
+- name: 15_2KX_9
+  native: 15_2KX_9
+  description: []
+  output:
+  - {native: phase}
+  - {native: edge}
+  location: http://farm8.staticflickr.com/7454/12972536453_4565bdfdbf_o.png
+  viz:
+  - url: http://farm8.staticflickr.com/7454/12972536453_6d8a9464d7_z.jpg
+    name: []
+dict: segmented-titanium
+---
