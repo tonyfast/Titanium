@@ -5,7 +5,7 @@ description: []
 aggregate:
 - name: 15_2KX_1
   native: 15_2KX_1
-  description: testing
+  description: []
   output:
   - {native: fraction, value: 0.6318512969985015}
   - {native: ssa, value: 0.033211994412225616}
@@ -60,7 +60,7 @@ aggregate:
 spatial:
 - name: 15_2KX_1
   native: 15_2KX_1
-  description: []
+  description: testing
   output:
   - {native: phase}
   - {native: edge}
