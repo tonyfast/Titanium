@@ -71,6 +71,26 @@ classnames =  cellfun( @(x)strtok( x.name, '_'), MetaData, 'UniformOutput', fals
 [uniquenames, ~, nameid] = unique( classnames );
 
 co = cbrewer( 'qual','Paired',20);
+%% Local Visualization
+for ii = 1 : max(nameid)
+    
+    b = nameid == ii;
+    plot( U(b,1), U(b,2), 'ko','MarkerFacecolor',co(ii,:),'Markersize',16);
+    
+    if ii == 1
+        hold on;
+    end
+end
+hold off;
+legend( uniquenames, 'Location','Best');
+axis square
+grid on
+xlabel('First Principal Component Direction');
+ylabel('Second Principal Component Direction');
+
+
+%% Create a plot.ly visualization of the data
+
 for ii = 1 : max(nameid)
     b = nameid == ii;
     plotdata{ii}.x = U(b,1);
@@ -93,3 +113,5 @@ layout = struct( 'showlegend' , true, ...
     'yaxis' , struct( 'title', 'Second Principal Components',...
         'autorange' , true ) ...
 );
+
+% response = plotly( plotdata, struct('layout',layout) );
