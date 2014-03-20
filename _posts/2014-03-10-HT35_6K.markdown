@@ -58,7 +58,7 @@ aggregate:
   - {native: fraction, value: 0.501087330818062}
   - {native: ssa, value: 0.02196736207358737}
 spatial:
-- name: HT35_6K1_Thresholded 
+- name: This is a better name
   native: HT35_6K1_Thresholded
   description: The I can talk about individual datasets.
   output:
