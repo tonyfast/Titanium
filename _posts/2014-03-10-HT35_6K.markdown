@@ -1,7 +1,7 @@
 ---
 layout: dataset
 title: HT35_6K
-description: []
+description: The dataset was created using Heat Treatment 35.
 aggregate:
 - name: HT35_6K1_Thresholded
   native: HT35_6K1_Thresholded
