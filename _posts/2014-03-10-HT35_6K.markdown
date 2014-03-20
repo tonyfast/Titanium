@@ -1,11 +1,11 @@
 ---
 layout: dataset
 title: HT35_6K
-description: 
+description: I can begin to talk about the dataset on a whole.  Where and who it came from for example.
 aggregate:
 - name: HT35_6K1_Thresholded
   native: HT35_6K1_Thresholded
-  description: []
+  description: The I can talk about individual datasets
   output:
   - {native: fraction, value: 0.5416871638462547}
   - {native: ssa, value: 0.02347862803643436}
