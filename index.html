@@ -12,13 +12,17 @@ title: Everything starts from something
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
+    
       <li><span>{{ post.date | date_to_string }}</span> &raquo; 
-      <code style="background-color:rgb(220,220,220);">{{post.layout}}</code> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+      <code style="background-color:rgb(220,220,220);">{{post.layout}}</code> &raquo; <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+      
+  </li>
     {% endfor %}
   </ul>
 </div>
 <hr>
 <br>
+
     A visual interpretation of the datasets.  Please visit <a href="http://tonyfast.com/Titanium/2014/03/11/Statistics_PCA.html">PCA analytics page</a>.
     <iframe height="600" id="igraph" scrolling="no" seamless="seamless" src="https://plot.ly/~TonyFast/4/" width="100%"></iframe>
     

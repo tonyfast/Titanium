@@ -24,6 +24,11 @@
 <td><a href="{{site.baseurl}}"><img src="https://dl.dropboxusercontent.com/u/22455492/logo.png" height="60px;"></img></a></td>
 <td style="font-variant:small-caps;font-size:140%;vertical-align:middle;"><a href="{{site.baseurl}}/index.html">{{site.name}}</a>\&nbsp;&nbsp;</td>
 <td style="vertical-align:middle;font-size:140%;"><a href="{{site.baseurl}}{{page.url}}" style="color:black;">{{page.title}}</a></td>
+<td style="vertical-align:middle;font-size:140%;">
+    {% if page.layout =='dataset' or page.layout =='dictionary' %}
+<code><a href="https://github.com/tonyfast{{site.baseurl}}/edit/gh-pages/{{page.path}}" target="_blank">[edit]</a> </code>
+{% endif %}
+</td>
 </table>
 <table style="position:relative; height:auto;background:#FFCC11;color:black;width:100%;">
 <td><center>datasets <font style="font-size:100%"><b>{{page.spatial|size}}</b></font></center></td>
