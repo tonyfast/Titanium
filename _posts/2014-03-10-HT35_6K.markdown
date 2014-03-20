@@ -3,7 +3,7 @@ layout: dataset
 title: HT35_6K
 description: I can begin to talk about the dataset on a whole.  Where and who it came from for example.
 aggregate:
-- name: HT35_6K1_Thresholded
+- name: New Name
   native: HT35_6K1_Thresholded
   description: The I can talk about individual datasets
   output:
