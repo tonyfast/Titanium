@@ -16,7 +16,8 @@ A.aggregate.fraction = mean(A.spatial.phase(:));
 A.aggregate.ssa = mean(A.spatial.edge(:));
 
 
-% This portion is necessary when importing raw data.
+% This portion is necessary when importing raw data.  This requires the
+% flickr toolbox is installed.
 if ~strcmp( ImageLocation( 1:4 ), 'http')
     A.image = flickrGetImage( 'flickr.photos.search','Medium 640','text', sprintf('"%s"',imnm));
     A.link = flickrGetImage( 'flickr.photos.search','Original','text', sprintf('"%s"',imnm));
