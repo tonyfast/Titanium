@@ -1,9 +1,16 @@
 %% Download Tony Fast's Spatial Statistics Tools
 
-issudo = '';
+github.issudo = '';
+github.isssh= true;
+if github.isssh
+    github.name = @(user,name)sprintf('git@github.com:%s/%s.git',user,name);
+else
+    github.name = @(user,name)sprintf('https://github.com/%s/%s.git',user,name);
+end
 
+%%
 if ~isdir( './Spatial_Statistics/' )
-    system(sprintf('%s git clone https://github.com/tonyfast/Spatial_Statistics.git', issudo) );
+    system(sprintf('%s git clone %s', github.issudo, github.name('tonyfast','Spatial_Statistics') ));
 end
 addpath(genpath('./Spatial_Statistics/'));
 
@@ -20,7 +27,7 @@ addpath('./pca');
 
 addpath(genpath('./MATLAB'))
 addpath(genpath('./CODES'))
-
+return
 %%
 
 % Read the names of the post files in the gh-pages branch
