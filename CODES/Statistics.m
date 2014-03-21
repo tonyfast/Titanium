@@ -1,6 +1,6 @@
 %% Download Tony Fast's Spatial Statistics Tools
 
-issudo = 'sudo ';
+issudo = '';
 
 if ~isdir( './Spatial_Statistics/' )
     system(sprintf('%s git clone https://github.com/tonyfast/Spatial_Statistics.git', issudo) );
