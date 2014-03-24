@@ -8,14 +8,14 @@ aggregate:
     links:
       url: []
       name: []
-  - pretty: fraction
+  - pretty: Volume Fraction
     native: fraction
-    units: undefined
-    description: []
+    units: percentage 
+    description: This volume is computed using a simple image average
     links:
       url: []
       name: []
-  - pretty: ssa
+  - pretty: Specific Surface Area
     native: ssa
     units: undefined
     description: []
