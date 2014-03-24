@@ -1,7 +1,7 @@
 ---
 layout: dataset
 title: HT31_3Kx
-description: []
+description: This description is for the whole datset at the top of the page.
 aggregate:
 - name: HT31_3Kx_1_Thresholded
   native: HT31_3Kx_1_Thresholded
@@ -60,7 +60,7 @@ aggregate:
 spatial:
 - name: HT31_3Kx_1_Thresholded
   native: HT31_3Kx_1_Thresholded
-  description: []
+  description: This segmentation is questionable.
   output:
   - {native: phase}
   - {native: edge}
@@ -140,7 +140,7 @@ spatial:
     name: []
 - name: HT31_3Kx_9_Thresholded
   native: HT31_3Kx_9_Thresholded
-  description: []
+  description: This segmentation fits observed results.
   output:
   - {native: phase}
   - {native: edge}
