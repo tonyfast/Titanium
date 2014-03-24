@@ -58,7 +58,7 @@ aggregate:
   - {native: fraction, value: 0.762935948274387}
   - {native: ssa, value: 0.021151930798669928}
 spatial:
-- name: HT31_3Kx_1_Thresholded
+- name: First sample
   native: HT31_3Kx_1_Thresholded
   description: This segmentation is questionable.
   output:
