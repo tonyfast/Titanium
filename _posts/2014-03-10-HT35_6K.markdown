@@ -70,7 +70,7 @@ spatial:
     name: []
 - name: HT35_6K2_Thresholded
   native: HT35_6K2_Thresholded
-  description: bbgbuygbuygbuy
+  description: 
   output:
   - {native: phase}
   - {native: edge}
