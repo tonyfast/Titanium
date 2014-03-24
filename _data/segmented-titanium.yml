@@ -36,10 +36,10 @@ spatial:
     links:
       url: []
       name: []
-  - pretty: phase
+  - pretty: a-b Phase
     native: phase
     units: undefined
-    description: []
+    description: whether is alpha or beta
     links:
       url: []
       name: []
