@@ -70,7 +70,7 @@ spatial:
     name: []
 - name: 15_2KX_2
   native: 15_2KX_2
-  description: []
+  description: Comment alongside the data
   output:
   - {native: phase}
   - {native: edge}
