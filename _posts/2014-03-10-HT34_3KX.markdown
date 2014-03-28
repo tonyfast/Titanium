@@ -61,7 +61,7 @@ aggregate:
 spatial:
 - name: HT34_3KX_1_Thresholded
   native: HT34_3KX_1_Thresholded
-  description: []
+  description: I can annotate teh data easily
   output:
   - {native: phase}
   - {native: edge}
